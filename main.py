@@ -1,7 +1,6 @@
 
 
-print('Hello World')
-print('Hello World')
+name = input('Whats your name?')
+age = input('How old are you?')
 
-name = input('Enter your name: ')
-print(f'Hello {name}!')
+print(f'Hello, {name}! You are {age} years old.')
